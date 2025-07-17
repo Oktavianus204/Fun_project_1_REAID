@@ -1,0 +1,31 @@
+.stApp {
+  background-color: #124742;
+}
+
+/* Tombol default */
+div.stButton > button {
+  background-color: #ff0099 !important;
+  color: white !important;
+  border-radius: 15px !important;
+  padding: 10px 20px !important;
+  border: none !important;
+  font-weight: bold !important;
+  transition: 0.3s !important;
+}
+
+/* Hover effect */
+div.stButton > button:hover {
+  background-color: #e1c10a !important;
+  color: #000000 !important;
+}
+
+/* Aktif (saat diklik) */
+div.stButton > button:active {
+  background-color: #ff0099 !important;
+  color: white !important;
+  transform: scale(0.98) !important;
+  box-shadow: 0 0 5px rgba(255, 0, 153, 0.5) !important;
+}
+
+/*  saya mencari referensi warna pada website di bawah ini 
+ https://coolors.co/gradient-maker/124742-aefb2a */
